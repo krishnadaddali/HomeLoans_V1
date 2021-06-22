@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.homeloans.pageobjects.AddCustomerPage;
 import com.homeloans.pageobjects.LoginPage;
+import com.homeloans.test.BaseClass;
 
 public class TC_AddCustomerTest_003 extends BaseClass {
 	
