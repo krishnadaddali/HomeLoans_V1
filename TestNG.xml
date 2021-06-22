@@ -11,9 +11,9 @@
 		<parameter name="Browser" value="chrome" />
 		<classes>
 
-			<class name="com.homeloans.test.TC_LoginTest_001" />
-			<!-- <class name="com.homeloans.test.TC_LoginDDT_002" /> -->
-			<!-- <class name="com.homeloans.test.TC_AddCustomerTest_003" /> -->
+			<class name="com.homeloans.testcases.TC_LoginTest_001" />
+			<!-- <class name="com.homeloans.testcases.TC_LoginDDT_002" /> -->
+			<!-- <class name="com.homeloans.testcases.TC_AddCustomerTest_003" /> -->
 
 		</classes>
 	</test>

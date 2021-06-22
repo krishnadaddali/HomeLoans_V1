@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-HomeLoans_V1">
-              <span class="suite-name border-failed">HomeLoans_V1</span>
+              <span class="suite-name border-passed">HomeLoans_V1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-HomeLoans_V1" class="hide-methods failed suite-HomeLoans_V1"> (hide)</a> <!-- hide-methods failed suite-HomeLoans_V1 -->
-                      <a href="#" panel-name="suite-HomeLoans_V1" class="show-methods failed suite-HomeLoans_V1"> (show)</a> <!-- show-methods failed suite-HomeLoans_V1 -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HomeLoans_V1" class="hide-methods passed suite-HomeLoans_V1"> (hide)</a> <!-- hide-methods passed suite-HomeLoans_V1 -->
+                      <a href="#" panel-name="suite-HomeLoans_V1" class="show-methods passed suite-HomeLoans_V1"> (show)</a> <!-- show-methods passed suite-HomeLoans_V1 -->
                     </span>
-                    <div class="method-list-content failed suite-HomeLoans_V1">
+                    <div class="method-list-content passed suite-HomeLoans_V1">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomeLoans_V1" title="com.homeloans.test.TC_LoginTest_001" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HomeLoans_V1" title="com.homeloans.testcases.TC_LoginTest_001" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-HomeLoans_V1 -->
+                    </div> <!-- method-list-content passed suite-HomeLoans_V1 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,10 +117,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-HomeLoans_V1" class="panel HomeLoans_V1">
-          <div class="suite-HomeLoans_V1-class-failed">
+          <div class="suite-HomeLoans_V1-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.homeloans.test.TC_LoginTest_001</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.homeloans.testcases.TC_LoginTest_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -128,33 +128,10 @@
                   <a name="loginTest">
                   </a> <!-- loginTest -->
                   <span class="method-name">loginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=91.0.4472.101)
-  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;IVC17-046&apos;, ip: &apos;192.168.1.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\IVC170~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52364}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 91.0.4472.101, webStorageEnabled: true}
-Session ID: a959ecea06e112dc38dea91207920a5e
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
-	at com.homeloans.test.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:24)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HomeLoans_V1-class-failed -->
+          </div> <!-- suite-HomeLoans_V1-class-passed -->
         </div> <!-- panel HomeLoans_V1 -->
         <div panel-name="test-xml-HomeLoans_V1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -171,7 +148,7 @@ Session ID: a959ecea06e112dc38dea91207920a5e
   &lt;test thread-count=&quot;5&quot; name=&quot;BankingApp Test&quot;&gt;
     &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.homeloans.test.TC_LoginTest_001&quot;/&gt;
+      &lt;class name=&quot;com.homeloans.testcases.TC_LoginTest_001&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- BankingApp Test --&gt;
 &lt;/suite&gt; &lt;!-- HomeLoans_V1 --&gt;
@@ -214,13 +191,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.homeloans.test.TC_LoginTest_001')
-data.setCell(0, 3, 512);
+data.setCell(0, 2, 'com.homeloans.testcases.TC_LoginTest_001')
+data.setCell(0, 3, 655);
 window.suiteTableData['HomeLoans_V1']= { tableData: data, tableDiv: 'times-div-HomeLoans_V1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 512 ms</span>
+              <span class="suite-total-time">Total running time: 655 ms</span>
               <div id="times-div-HomeLoans_V1">
               </div> <!-- times-div-HomeLoans_V1 -->
             </div> <!-- times-div -->
@@ -246,20 +223,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.homeloans.test.TC_LoginTest_001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.homeloans.testcases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">6887 ms</span>
+                <span class="method-start">6827 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7430 ms</span>
+                <span class="method-start">7493 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

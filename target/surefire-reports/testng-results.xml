@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="HomeLoans_V1" duration-ms="8396" started-at="2021-06-22T13:40:41Z" finished-at="2021-06-22T13:40:50Z">
+  <suite name="HomeLoans_V1" duration-ms="8236" started-at="2021-06-22T16:54:42Z" finished-at="2021-06-22T16:54:51Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="8396" started-at="2021-06-22T13:40:41Z" finished-at="2021-06-22T13:40:50Z">
-      <class name="com.homeloans.test.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.homeloans.test.TC_LoginTest_001@57829d67]" name="setup" is-config="true" duration-ms="6867" started-at="2021-06-22T13:40:42Z" finished-at="2021-06-22T13:40:48Z">
+    <test name="BankingApp Test" duration-ms="8236" started-at="2021-06-22T16:54:42Z" finished-at="2021-06-22T16:54:51Z">
+      <class name="com.homeloans.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.homeloans.testcases.TC_LoginTest_001@57829d67]" name="setup" is-config="true" duration-ms="6737" started-at="2021-06-22T16:54:43Z" finished-at="2021-06-22T16:54:49Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.homeloans.test.TC_LoginTest_001@57829d67]" name="loginTest" duration-ms="679" started-at="2021-06-22T13:40:48Z" finished-at="2021-06-22T13:40:49Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.homeloans.testcases.TC_LoginTest_001@57829d67]" name="loginTest" duration-ms="645" started-at="2021-06-22T16:54:49Z" finished-at="2021-06-22T16:54:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.homeloans.test.TC_LoginTest_001@57829d67]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-06-22T13:40:49Z" finished-at="2021-06-22T13:40:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.homeloans.testcases.TC_LoginTest_001@57829d67]" name="tearDown" is-config="true" duration-ms="666" started-at="2021-06-22T16:54:50Z" finished-at="2021-06-22T16:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.homeloans.test.TC_LoginTest_001 -->
+      </class> <!-- com.homeloans.testcases.TC_LoginTest_001 -->
     </test> <!-- BankingApp Test -->
   </suite> <!-- HomeLoans_V1 -->
 </testng-results>

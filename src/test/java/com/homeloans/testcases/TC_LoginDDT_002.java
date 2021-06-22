@@ -1,4 +1,4 @@
-package com.homeloans.test;
+package com.homeloans.testcases;
 
 import java.io.IOException;
 

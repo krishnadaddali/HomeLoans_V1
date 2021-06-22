@@ -1,9 +1,9 @@
-C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\test\TC_AddCustomerTest_003.java
+C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\testcases\BaseClass.java
+C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\testcases\TC_AddCustomerTest_003.java
 C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\pageobjects\AddCustomerPage.java
-C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\test\TC_LoginTest_001.java
-C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\test\TC_LoginDDT_002.java
+C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\testcases\TC_LoginDDT_002.java
 C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\util\XLUtils.java
 C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\util\ReadConfig.java
-C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\test\BaseClass.java
+C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\testcases\TC_LoginTest_001.java
 C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\util\Reporting.java
 C:\Users\ivc17046adm\workspace\HomeLoans_V1\src\test\java\com\homeloans\pageobjects\LoginPage.java

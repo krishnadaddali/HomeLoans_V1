@@ -1,9 +1,9 @@
 com\homeloans\pageobjects\LoginPage.class
 com\homeloans\util\ReadConfig.class
+com\homeloans\testcases\TC_LoginTest_001.class
+com\homeloans\testcases\TC_AddCustomerTest_003.class
 com\homeloans\util\XLUtils.class
-com\homeloans\test\BaseClass.class
-com\homeloans\test\TC_LoginDDT_002.class
-com\homeloans\test\TC_LoginTest_001.class
+com\homeloans\testcases\TC_LoginDDT_002.class
+com\homeloans\testcases\BaseClass.class
 com\homeloans\pageobjects\AddCustomerPage.class
 com\homeloans\util\Reporting.class
-com\homeloans\test\TC_AddCustomerTest_003.class
